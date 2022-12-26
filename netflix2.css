@@ -1,0 +1,507 @@
+* {
+    box-sizing: border-box;
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: inline-block;
+    padding:10px 30px ;
+    position: relative;
+    z-index: 10;
+}
+.logo {
+    background-image: url(image/Netflix_2015_logo.svg.png);
+    /* height: 50px;
+    width: 50px; */
+ 
+     height: 45px;
+    width: 183px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+.language {
+    background-color: transparent;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 7px;
+    position: absolute;
+    /* top: 35px;
+    right:30px; */
+    top: 12px;
+     right: -757px;
+     font-size: 15px;
+}
+.signin {
+    background-color: red;
+    padding: 7px 7px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    /* top: 0px;
+    right: 0px; */
+
+    top: -47px;
+    right: -977px;
+    border: none;
+
+}
+.main {
+    background-image: linear-gradient(rgba(0,0,0,.546),rgba(0,0,0,.900)),url(image/netflixbackground.jpg);
+    /* height: 600px;
+    width: 600px; */
+    height: 632px;
+    width: 1124px
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -102px;;
+}
+.content {
+    color: white;
+    position: relative;
+    /* top:100px;
+    right: 0px; */
+    top: 204px;
+     /* right: -334px;*/
+     text-align: center; 
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bolder;
+}
+     .content h2 {
+        font-size: 40px;
+
+                }
+                .content h3 {
+                    font-size: 30px;
+                }
+     .content h3 {
+        font-size: 30px;
+     }
+
+     .content h4 {
+        font-size: 25px;
+     }
+     .content form :nth-child(1) {
+        height: 60px;
+        width: 350px;
+        padding: 0px 10px;
+        font-size: 18px;
+     }
+
+     .content form :nth-child(2) {
+        height: 60px;
+         width: 150px; 
+        padding: 0px 20px;
+        color: white;
+        font-size: 18px;
+        position: relative;
+        right: 4px;
+        background-color: red;
+        border: none;
+        border-radius: 0px;
+     }
+     .content form :last-child:hover {
+        background-color: rgb(77, 2, 2);
+     }
+
+      .second {
+        background-color: black;
+        color: white;
+        height: 600px;
+        width: 1349px;
+       box-shadow: 0px -8px 0px grey;
+        border: 2px solid rgb(17, 16, 16);
+        position: relative;
+        top: -94px;
+     }
+
+     .secondcontent {
+        position: relative;
+        top: 178px;
+        right: -28px;
+        /* font-weight: bold;  */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+          .enjoy {
+            /* height: 600px;
+            width: 500px;
+            border: 2px solid red;
+            position: relative;
+            top: -223px;
+             right: -572px;
+             overflow: hidden; */
+             height: 427px;
+             width: 663px;
+             /* border: 2px solid red; */
+             position: relative;
+             top: -115px;
+             right: -441px;
+             overflow: hidden;
+          }  
+
+          .enemy {
+            height: 444px;
+        width: 632px;
+        position: absolute;
+         top: 27px;
+        right: 5px;
+         z-index: 2;
+
+          }
+
+     .video {
+        position: absolute;
+        /* right: -476px;
+        top: -65px; */
+        right: 9px;
+        top: -78px;
+        /* z-index: 3; */
+       
+     }
+     h3 {
+        font-size: 35px;
+     }
+     p {
+        font-size: 21px;
+        position: relative;
+        top: 21px;
+     }
+     .play {
+        height: 280px;
+         width: 465px;
+         position: absolute;
+            top: 91px;
+          right: 90px;
+        /* z-index: 1; */
+        /* overflow: hidden; */
+     } 
+
+     .third {
+        background-color: black;
+        color: white;
+        height: 600px;
+        width: 1349px;
+        display: inline-block;
+       box-shadow: 0px -8px 0px grey;
+        border: 2px solid rgb(17, 16, 16);
+        position: relative;
+        top: -86px;
+     }
+
+    .content3 {
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif ;
+        position: relative;
+        top: 127px;
+         right: -679px;
+    }
+
+    .content3 h3 {
+        font-size: 45px;
+        position: relative;
+        top: -75px;
+        right: 112px;
+
+    }
+
+    .content3 p {
+        /* font-size: 35px; */
+        position: relative;
+         font-size: 27px;
+        top: -60px;
+        right: 114px;
+    }
+
+    .image3 {
+        height: 200px;
+        width: 200px;
+        position:relative;
+        top: 68px;
+        right: 69px;
+    }
+    div .img1 {
+        position: relative;
+        height: 87px;
+        width: 375px;
+        top: -113px;
+        right: -142px;
+        border: 4px double rgb(14, 9, 9);
+        border-radius: 8px 8px 8px 8px;
+
+    }
+
+    div .img2 {
+        position: relative;
+        /* height: 100px;
+        width: 100px;
+        top: 0px;
+        right: 0px; */
+
+        height: 73px;
+       width: 66px;
+        top: -197px;
+        right: -152px;
+        border-radius: 5px 5px 5px 5px ;
+    }
+    div .img4 {
+        position: relative;
+        height: 69px;
+        width: 78px;
+        top: -198px;
+        right: -357px;
+    }
+    .sacred {
+        background-color: black;
+        display: inline-block;
+        color: white;
+        height: 600px;
+        width: 1349px;
+       box-shadow: 0px -8px 0px grey;
+        border: 2px solid rgb(17, 16, 16);
+        position: relative;
+        top: -78px;
+    }
+    .game2 {
+        /* border: 2px solid red; */
+        height: 468px;
+        width: 534px;
+        position: relative;
+        top: -223px;
+         right: -572px;
+         overflow: hidden;
+
+    }
+    .png {
+        height: 430px;
+        width: 545px;
+        position: absolute;
+         top: 27px;
+        right: 5px;
+         z-index: 2;
+    }
+     .button1 {
+         height: 248px;
+       width: 353px;
+        position: absolute;
+        top: 46px;
+         right: 105px;
+
+     }
+
+     .game1 {
+        height: 210px;
+        width: 404px;
+        /* border: 2px solid red; */
+        position: relative;
+        top: 100px;
+        right: -11px;
+        text-align: center;
+     }
+
+     .game1 h3 {
+        font-weight: bold;
+        font-size: 40px;
+     }
+     .game1 p {
+        font-size: 23px;
+     }
+        .forth {
+            
+        background-color: black;
+        color: white;
+        height: 600px;
+        width: 1349px;
+        display: inline-block;
+       box-shadow: 0px -8px 0px grey;
+        border: 2px solid rgb(17, 16, 16);
+        position: relative;
+        top: -153px;
+        }
+        .fifth {
+           
+            
+        background-color: black;
+        color: white;
+        height: 600px;
+        width: 1349px;
+        display: inline-block;
+       box-shadow: 0px -8px 0px grey;
+        border: 2px solid rgb(17, 16, 16);
+        position: relative;
+        top: -153px;
+        }
+
+        .summary1 {
+            width: 440px;
+            position: relative;
+            right: -417px;
+            top: 88px;
+        }
+        .summary2 h3 {
+            height: 40px;
+            width: 440px;
+            position: relative;
+            right: -397px;
+            top: 49px
+        }
+            .summary1 .d1 {
+                border: 1px solid white;
+                height: 40px;
+                width: 440px;
+                background-color: rgb(31, 26, 26);
+                padding: 5px;
+            }
+            .summary1 .d2 {
+                border: 1px solid white;
+                height: 40px;
+                width: 440px;
+                background-color: rgb(31, 26, 26);
+                padding: 5px;
+            }
+
+            .summary1 .d3 {
+                border: 1px solid white;
+                height: 40px;
+                width: 440px;
+                background-color: rgb(31, 26, 26);
+                padding: 5px;
+            }
+            .summary1 .d4 {
+                border: 1px solid white;
+                height: 40px;
+                width: 440px;
+                background-color: rgb(31, 26, 26);
+                padding: 5px;
+            }
+            .summary1 .d5 {
+                border: 1px solid white;
+                height: 40px;
+                width: 440px;
+                background-color: rgb(31, 26, 26);
+                padding: 5px;
+            }
+            .summary1 .d6 {
+                border: 1px solid white;
+                height: 40px;
+                width: 440px;
+                background-color: rgb(31, 26, 26);
+                padding: 5px;
+            }
+        .cartoon {
+            background-image: url(image/netflixremain.png);
+            height: 363px;
+            width: 358px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: relative;
+            top: 256px;
+            right: -211px;
+        }
+        .cartoontext {
+            position: relative;
+            height: 220px;
+            width: 366px;
+            position: relative;
+            top: -57px;
+            right: -629px;
+        }
+        .cartoontext h3 {
+            /* font-weight: bold; */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .cartoontext p {
+            font-size: larger;
+        }
+
+        .started h4 {
+            position: relative;
+            top: 124px;
+            right: -388px;
+        }
+
+        .started form :nth-child(1) {
+            height: 60px;
+            width: 350px;
+            padding: 0px 10px;
+            font-size: 18px;
+            position: relative;
+            top: 142px;
+            right: -375px;
+         }
+    
+         .started form :nth-child(2) {
+            height: 60px;
+             width: 150px; 
+            padding: 0px 20px;
+            color: white;
+            font-size: 18px;
+            position: relative;
+            right: -372px;
+            top: 142px;
+            background-color: red;
+            border: none;
+            border-radius: 0px;
+         }
+         .started form :last-child:hover {
+            background-color: rgb(77, 2, 2);
+         }
+        .sixth {
+            
+            
+        background-color: black;
+        color: white;
+        height: 600px;
+        width: 1349px;
+        display: inline-block;
+       box-shadow: 0px -8px 0px grey;
+        border: 2px solid rgb(17, 16, 16);
+        position: relative;
+        top: -153px;
+        }
+        .final ul li:hover {
+            text-decoration: underline;
+        }
+        .final {
+            width: 1250px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            
+        }
+        .sixth .media {
+            height: 400px;
+            width: 1300px;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+        }
+        .sixth .media h5 {
+            align-self: center;
+        }
+        
+        .lasttopic select {
+            background-color: transparent;
+            color: white;
+            padding: 5px 5px;
+            border-radius: 7px;
+            position: relative;
+            /* top: 35px;
+            right:30px; */
+          
+            top: 108px;
+            right: -149px;
+             font-size: 15px;
+        }
+        .lasttopic p {
+        font-size: 14px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        top: 120px;
+        right: -151px;
+        font-weight: lighter;
+        }
